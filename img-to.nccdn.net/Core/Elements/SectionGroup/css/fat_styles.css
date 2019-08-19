@@ -1,0 +1,577 @@
+.secTitle,
+.secTitle a {
+    cursor: pointer;
+    outline: 0
+}
+
+.sg .sgHC0 .sk-obj-placeholder,
+.sg .sgHT0 .sk-obj-placeholder,
+.sgHC0 .sk-obj-placeholder,
+.sgHT0 .sk-obj-placeholder {
+    display: none;
+    width: 20px;
+    height: 100%
+}
+
+.secBody .secBody .sk-obj-placeholder:not(.sk-obj-placeholder-vertical),
+.secBody .sk-obj-placeholder:not(.sk-obj-placeholder-vertical) {
+    width: 100%;
+    height: 0
+}
+
+.sg-delim-common {
+    display: block
+}
+
+.sg .sg-delim-common.sk-sg-last-delimiter {
+    display: none
+}
+
+.secIconColCell {
+    display: none;
+    cursor: pointer
+}
+
+.secBody .secBodyWrapper {
+    box-sizing: initial
+}
+
+.fmCptnWrap>span {
+    display: table
+}
+
+.sgHC0 {
+    display: table;
+    width: 100%
+}
+
+.sgHC0 .sectionCell {
+    display: table-cell;
+    width: 100%
+}
+
+.sgHC0>div {
+    display: table-row
+}
+
+.sgHC0>div>* {
+    display: table-cell;
+    vertical-align: top
+}
+
+.sg .sgHC0 .sk-obj-placeholder-wrapper,
+.sg .sgHT0 .sk-obj-placeholder-wrapper,
+.sgHC0 .sk-obj-placeholder-wrapper,
+.sgHT0 .sk-obj-placeholder-wrapper {
+    position: absolute;
+    width: 0
+}
+
+.sgHC0>div>.sk-obj-placeholder-wrapper:first-child:last-child,
+.sgHT0>div>.sk-obj-placeholder-wrapper:first-child:last-child {
+    position: relative;
+    width: 100%;
+    height: 0
+}
+
+.sgHC0>div>.sk-obj-placeholder-wrapper:first-child:last-child .sk-obj-placeholder,
+.sgHT0>div>.sk-obj-placeholder-wrapper:first-child:last-child .sk-obj-placeholder {
+    display: none;
+    width: 100%;
+    float: left
+}
+
+.sgVC0>div>.sk-obj-placeholder-wrapper.sk-obj-placeholder-wrapper-last-item,
+.sgVCC0>div>.sk-obj-placeholder-wrapper.sk-obj-placeholder-wrapper-last-item {
+    position: absolute;
+    bottom: 0
+}
+
+.sgHC0.sg-hide-delimiters .sgDelim1,
+.sgHC0.sg-hide-headers div.sectionCell div.secHead>.secTitle {
+    display: none !important
+}
+
+.sgHC0.sg-equal-columns {
+    table-layout: fixed
+}
+
+.em_disabled .sgHC0.sg-equal-columns {
+    table-layout: auto
+}
+
+.sgHC0 .nolink .secTitle,
+.sgHC0 .nolink .secTitle a,
+.sgVC0 .nolink .secTitle,
+.sgVC0 .nolink .secTitle a {
+    cursor: default
+}
+
+.sgHT0 .active .secTitle,
+.sgHT0 .active .secTitle a,
+.sgVT0 .active .secTitle,
+.sgVT0 .active .secTitle a {
+    cursor: default;
+    z-index: 1
+}
+
+.sgVCC0.sgAccordion .active .secTitle,
+.sgVCC0.sgAccordion .active .secTitle a {
+    cursor: default
+}
+
+.wIcn.noactive .fmIcnNor {
+    display: inline
+}
+
+.wIcn.noactive .fmIcnCur,
+.wIcn.noactive .fmIcnSel {
+    display: none
+}
+
+.wIcn.noactive .secCptn:hover .fmIcnSel {
+    display: inline
+}
+
+.wIcn.noactive .secCptn:hover .fmIcnCur,
+.wIcn.noactive .secCptn:hover .fmIcnNor {
+    display: none
+}
+
+.wIcn.active .fmIcnCur {
+    display: inline
+}
+
+.wIcn.active .fmIcnNor,
+.wIcn.active .fmIcnSel {
+    display: none
+}
+
+.sgHC0 .wIcn .fmIcnNor {
+    display: inline
+}
+
+.sgHC0 .wIcn .fmIcnCur,
+.sgHC0 .wIcn .fmIcnSel {
+    display: none
+}
+
+.sgHC0 .wIcn .secCptn:hover .fmIcnNor {
+    display: inline
+}
+
+.sgHC0 .wIcn .secCptn:hover .fmIcnCur,
+.sgHC0 .wIcn .secCptn:hover .fmIcnSel {
+    display: none
+}
+
+.sgVC0 .wIcn .fmIcnNor {
+    display: inline
+}
+
+.sgVC0 .wIcn .fmIcnCur,
+.sgVC0 .wIcn .fmIcnSel {
+    display: none
+}
+
+.sgVC0 .wIcn .secCptn:hover .fmIcnNor {
+    display: inline
+}
+
+.sgVC0 .wIcn .secCptn:hover .fmIcnCur,
+.sgVC0 .wIcn .secCptn:hover .fmIcnSel {
+    display: none
+}
+
+.sgVCC0 .wIcn.active .fmIcnCur {
+    display: inline
+}
+
+.sgVCC0 .wIcn.active .fmIcnNor,
+.sgVCC0 .wIcn.active .fmIcnSel {
+    display: none
+}
+
+.sgVCC0 .wIcn.active .secCptn:hover .fmIcnSel {
+    display: inline
+}
+
+.sgVCC0 .wIcn.active .secCptn:hover .fmIcnCur,
+.sgVCC0 .wIcn.active .secCptn:hover .fmIcnNor {
+    display: none
+}
+
+.sgVCC0.sgAccordion .wIcn.active .fmIcnCur {
+    display: inline
+}
+
+.sgVCC0.sgAccordion .wIcn.active .fmIcnNor,
+.sgVCC0.sgAccordion .wIcn.active .fmIcnSel {
+    display: none
+}
+
+.sgVCC0.sgAccordion .wIcn.active .secCptn:hover .fmIcnCur {
+    display: inline
+}
+
+.sgVCC0.sgAccordion .wIcn.active .secCptn:hover .fmIcnNor,
+.sgVCC0.sgAccordion .wIcn.active .secCptn:hover .fmIcnSel {
+    display: none
+}
+
+@media screen and (max-width:600px) {
+    .sgHC0>div {
+        display: block
+    }
+    .sgHC0>div>div {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block
+    }
+    .sgHC0>div .sectionCell {
+        display: block
+    }
+    .sgHC0 .sgDelim1 {
+        display: none
+    }
+    .secBody,
+    .secBodyWrapper {
+        min-height: 0 !important
+    }
+    .sgHC0 .secBody,
+    .sgHC0 .secBody .secBodyWrapper,
+    .sgHC0 .secBody .secBodyWrapper .secBodyInnerWrapper,
+    .sgHT0 .secBody,
+    .sgHT0 .secBody .secBodyWrapper,
+    .sgHT0 .secBody .secBodyWrapper .secBodyInnerWrapper,
+    .sgVT0 .secBody,
+    .sgVT0 .secBody .secBodyWrapper,
+    .sgVT0 .secBody .secBodyWrapper .secBodyInnerWrapper {
+        height: auto !important;
+        min-height: 0 !important
+    }
+}
+
+.sg .sectionCell .secCptn>span {
+    display: inline-block
+}
+
+.sg .sectionCell .secCptn>span>span {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.sg .sectionCell.wIcnL .fmCptnWrap,
+.sg .sectionCell.wIcnR .fmIcnWrap {
+    -webkit-order: 2;
+    order: 2
+}
+
+.sg .sectionCell.wIcnL .fmIcnWrap,
+.sg .sectionCell.wIcnR .fmCptnWrap {
+    -webkit-order: 1;
+    order: 1
+}
+
+.sg .sgHT0 .tabButtonContainerCell,
+.sgHT0 .tabButtonContainerCell {
+    display: table
+}
+
+.sgHT0 .tabButtonContainerCell>div {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.sgVT0 {
+    display: table;
+    width: 100%
+}
+
+.sgVT0 .content-wrapper,
+.sgVT0 .tabButtonContainerCell {
+    display: table-cell;
+    vertical-align: top
+}
+
+.sgVT0 .content-wrapper {
+    width: 100%
+}
+
+.sgVCC0 .secHead {
+    display: table
+}
+
+.sgVCC0.sk-sg-is-rendered .secHead>div,
+.sgVCC0.sk-sg-is-rendered .sgVCC0 .secHead>div {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.sgVCC0 .sectionCell .secBody {
+    padding-top: 0 !important
+}
+
+.sectionCell .sectionCell .sk-obj-placeholder-wrapper:not(.sk-obj-placeholder-wrapper-vertical),
+.sectionCell .sk-obj-placeholder-wrapper:not(.sk-obj-placeholder-wrapper-vertical),
+.sg .sgHC0 .sectionCell .sk-obj-placeholder-wrapper:not(.sk-obj-placeholder-wrapper-vertical),
+.sgHT0 .content-wrapper .sk-obj-placeholder-wrapper:not(.sk-obj-placeholder-wrapper-vertical) {
+    position: relative;
+    width: auto;
+    margin: -150px 0;
+    padding: 150px 0
+}
+
+.sgHC0 .secHead,
+.sgVC0 .secHead {
+    display: table;
+    width: 100%
+}
+
+.sgHC0 .secHead .secTitle,
+.sgVC0 .secHead .secTitle {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.sgHC0 .secHead .secTitle,
+.sgVC0 .secHead .secTitle,
+.sgVCC0 .secHead .secTitle {
+    word-break: break-word
+}
+
+@media all and (-ms-high-contrast:none) {
+    .secHead,
+    ::-ms-backdrop {
+        table-layout: fixed
+    }
+    .secCptn>span,
+    ::-ms-backdrop {
+        width: 100%
+    }
+}
+
+.sgHT0 .secHead .secTitle,
+.sgVT0 .secHead .secTitle {
+    word-break: normal
+}
+
+.content-wrapper {
+    position: relative
+}
+
+.sectionCell .fmCptnWrap>span.editable {
+    min-width: 1em;
+    min-height: 1em
+}
+
+.fmCptnWrap.icon-only {
+    display: none !important
+}
+
+.sg .em_normal:hover {
+    position: relative
+}
+
+.sg.hide {
+    visibility: hidden
+}
+
+.sgVCC0 .sectionCell.noactive .secBody {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden
+}
+
+.sgVC0 .sg .sectionCell {
+    display: block
+}
+
+.sg .sgHC0 .secBody {
+    visibility: visible
+}
+
+.sgHT0 .sgVT0 .tabButtonContainerCell .sk-obj-placeholder-wrapper {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    padding: 150px 0;
+    margin: -150px 0;
+    cursor: pointer;
+    opacity: 1
+}
+
+.sgHC0 .plain>div {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.sgVCC0 .sg .secIconColCell {
+    display: none
+}
+
+.sgHT0 .tabButtonContainerCell.sg-equal-tabs {
+    table-layout: fixed;
+    width: 100%
+}
+
+.sgHT0 .tabButtonContainerCell {
+    position: relative
+}
+
+.sgHT0 .tabButtonContainerCell .sk-obj-placeholder-wrapper {
+    height: 100%
+}
+
+.sgVC0 .sectionCell .secCptn,
+.sgVCC0 .sectionCell .secCptn {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.sgVC0 .sectionCell .secCptn>span,
+.sgVCC0 .sectionCell .secCptn>span {
+    display: table-cell
+}
+
+#sg-moved-contents {
+    position: absolute;
+    top: 0;
+    left: -1000px
+}
+
+.sg.sgHC0 .sk-obj-placeholder-wrapper {
+    height: 100%
+}
+
+.sgHT0 .sg-delim-common,
+.sgVT0 .sg-delim-common {
+    display: none
+}
+
+.sgHT0.sk-sg-initial-render,
+.sgVT0.sk-sg-initial-render {
+    visibility: hidden;
+    opacity: 0
+}
+
+.tabButtonContainerCell .secBody {
+    display: none
+}
+
+.sgHT0 .sk-tabs-holder-wrapper {
+    display: flex;
+    align-items: center
+}
+
+.sk-tabs-arrow {
+    width: 40px;
+    text-align: center;
+    cursor: pointer
+}
+
+.sk-tabs-arrow:before {
+    font-size: 1.5em;
+    font-weight: 700;
+    user-select: none;
+    -webkit-touch-callout: none
+}
+
+.sk-tabs-arrow.sk-tabs-arrow-prev:before {
+    content: '<'
+}
+
+.sk-tabs-arrow.sk-tabs-arrow-next:before {
+    content: '>'
+}
+
+.sk-tabs-holder {
+    width: 100%;
+    overflow: hidden
+}
+
+.sgHT0 .secBody.noactive,
+.sgHT0.sg-animate-section .secBody.noactive.sk-animation-completed,
+.sgVT0 .secBody.noactive,
+.sgVT0.sg-animate-section .secBody.noactive.sk-animation-completed {
+    position: absolute;
+    left: -1000%;
+    right: 1000%;
+    top: -90000px;
+    z-index: -1;
+    visibility: hidden
+}
+
+.sgHT0.sg-animate-section .secBody.noactive,
+.sgVT0.sg-animate-section .secBody.noactive {
+    opacity: 0;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    visibility: visible
+}
+
+.sgHT0.sg-animate-section .secBody.active,
+.sgVT0.sg-animate-section .secBody.active {
+    opacity: 1;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.sgHT0.sg-animate-section .secBody,
+.sgVT0.sg-animate-section .secBody {
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out
+}
+
+.sgVCC0.sg-animate-section .sectionCell .secBody {
+    overflow: hidden
+}
+
+.sgVCC0.sg-animate-section .sectionCell.noactive .secBody {
+    position: static;
+    z-index: 1;
+    opacity: 1;
+    visibility: visible
+}
+
+.sgVCC0.sg-animate-section .sectionCell.noactive .secBody.sk-animation-completed {
+    opacity: 0;
+    visibility: hidden
+}
+
+.sgVCC0.sg-animate-section .sectionCell .secBodyWrapper {
+    overflow: hidden;
+    -webkit-transition: margin .5s ease-out;
+    -moz-transition: margin .5s ease-out;
+    -ms-transition: margin .5s ease-out;
+    -o-transition: margin .5s ease-out;
+    transition: margin .5s ease-out
+}
+
+.sgVCC0 .sectionCell.active .secBody.sk-animation-completed,
+.sgVCC0 .sectionCell.active .secBody.sk-animation-completed .secBodyWrapper {
+    overflow: visible
+}
+
+.sgHT0.sg-animate-section.sk-sg-initial-render .secBody,
+.sgVCC0.sg-animate-section.sk-sg-initial-render .sectionCell .secBodyWrapper,
+.sgVT0.sg-animate-section.sk-sg-initial-render .secBody {
+    -webkit-transition: unset;
+    -moz-transition: unset;
+    -ms-transition: unset;
+    -o-transition: unset;
+    transition: unset
+}

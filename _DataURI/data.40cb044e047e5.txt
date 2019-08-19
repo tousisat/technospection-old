@@ -1,0 +1,1 @@
+chrome-extension://lbojggafdepnclikhiapkpinbfdhbdoi/cstAntidote.js
